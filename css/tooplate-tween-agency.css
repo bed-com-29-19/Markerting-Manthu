@@ -1,4 +1,3 @@
-
 :root {
   --white-color:                  #FFFFFF;
   --primary-color:                 #00375b;
@@ -129,6 +128,15 @@ strong {
 
 .backstretch { max-width: 99.99%; }
 
+/*-----what i added--------*/
+.login-button{
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+}
+.login-button:hover{
+      color: var(--primary-color);;
+}
+
 /*---------------------------------------
   CUSTOM ICON               
 -----------------------------------------*/
@@ -258,7 +266,7 @@ button:focus:not(:focus-visible) {
 }
 
 .overlay {
-  background: rgba(128,142,176, 0.5);
+  background: #03131da3;
   position: absolute;
   top: 0;
   right: 0;
